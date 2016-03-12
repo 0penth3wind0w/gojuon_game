@@ -1,0 +1,41 @@
+body{
+  font-family: "Microsoft JhengHei","文泉驛正黑";
+  background-color: black;
+  color: white;
+}
+
+#selectors{
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+#selector_func{
+  display: none;
+}
+
+.mode{
+  width:20%;
+
+}
+
+#main_content{
+  display: none;
+  width:80%;
+  margin-left: 10%;
+}
+
+.inner_content{
+  font-size: 8em;
+}
+
+@media (max-width: 500px){
+  #show{
+    width:45%;
+    height: 50px;
+  }
+  #next{
+    width:45%;
+    height: 50px;
+  }
+}
