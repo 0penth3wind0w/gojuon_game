@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Gojuon Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div id="selectors">
+    <div id="mode_selector">
+  		<button id="mode_1" class="mode" onclick="mode_1();">平假名→發音</button>
+      <button id="mode_3" class="mode" onclick="mode_2()">片假名→發音</button>
+      <button id="mode_5" class="mode" onclick="mode_3();">發音→平假名</button>
+      <button id="mode_7" class="mode" onclick="mode_4();">發音→片假名</button>
+  		<!--button id="mode_2" class="mode" onclick="mode_5();">平假名(含濁音、半濁音) → 發音</button-->
+  		<!--button id="mode_4" class="mode" onclick="mode_6();">片假名(含濁音、半濁音) → 發音</button-->
+  		<!--button id="mode_6" class="mode" onclick="mode_7();">發音 → 平假名(含濁音、半濁音)</button-->
+      <!--button id="mode_8" class="mode" onclick="mode_8();">發音 → 片假名(含濁音、半濁音)</button-->
+  	</div>
+    <div id="selector_func">
+      <button id="show_botton" onclick="show_selector();">更改模式</button>
+    </div>
+  </div>
+	<div id="main_content">
+		<div>
+			<div class="q">
+        <div id="q_title" class="inner_content"></div>
+				<div id="q_cont" class="inner_content">question</div>
+			</div>
+			<div class="ans">
+        <div id="ans_title" class="inner_content"></div>
+				<div id="ans_cont" class="inner_content">answer</div>
+			</div>
+      <div id="show_ans">
+  			<button id="show" onclick="show();">看答案</button>
+  		</div>
+      <div id="next_div">
+  			<button id="next" onclick="next();">下一題</button>
+  		</div>
+		</div>
+	</div>
+</body>
+</html>
