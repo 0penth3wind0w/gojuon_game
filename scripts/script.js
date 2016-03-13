@@ -13,7 +13,8 @@
 var spelling_ext = ["ga","gi","gu","ge","go",
 			"za","zi","zu","ze","zo",
 			"da","di","du","de","do",
-			"ba","bi","bu","be","bo"]
+			"ba","bi","bu","be","bo",
+      "pa","pi","pu","pe","po"]
 
 var hira = ["あ","い","う","え","お",
 			"か","き","く","け","こ",
@@ -130,16 +131,16 @@ function game(mode){
       random_pick(kana, spelling);
       break;
     case 5:
-      console.log("5");
+      random_pick(spelling.concat(spelling_ext), hira.concat(hira_ext));
       break;
     case 6:
-      console.log("6");
+      random_pick(spelling.concat(spelling_ext), kana.concat(kana_ext));
       break;
     case 7:
-      console.log("7");
+      random_pick(hira.concat(hira_ext), spelling.concat(spelling_ext));
       break;
     case 8:
-      console.log("8");
+      random_pick(kana.concat(kana_ext), spelling.concat(spelling_ext));
       break;
   }
   document.getElementById("main_content").style.display = "block";
