@@ -5,28 +5,51 @@ body{
 }
 
 #selectors{
-  width: 80%;
-  margin-left: 10%;
+  width: 95%;
+  margin-left: 2.5%;
   text-align: center;
 }
 
 #selector_func{
   display: none;
+  align-items: flex-end;
+}
+
+.btn{
+    font-family: "Microsoft JhengHei","文泉驛正黑";
+    background-color: white;
 }
 
 .mode{
   width:20%;
+  font-size: 1em;
+}
 
+#show_botton{
+  width:auto;
 }
 
 #main_content{
   display: none;
   width:80%;
   margin-left: 10%;
+  text-align: center;
+}
+
+#main_content div button{
+  font-size: 2em;
 }
 
 .inner_content{
   font-size: 8em;
+}
+
+#show_ans{
+  margin-top: 5px;
+}
+
+#next_div{
+  margin-top: 5px;
 }
 
 @media (max-width: 500px){
