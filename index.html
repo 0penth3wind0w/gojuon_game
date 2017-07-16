@@ -14,22 +14,18 @@
       <button id="mode_3" class="mode btn" onclick="mode_2();">發音→片假名</button>
       <button id="mode_5" class="mode btn" onclick="mode_3();">平假名→發音</button>
       <button id="mode_7" class="mode btn" onclick="mode_4();">片假名→發音</button>
-  		<button id="mode_2" class="mode btn" onclick="mode_5();">發音→平假名(含濁音、半濁音)</button>
-  		<button id="mode_4" class="mode btn" onclick="mode_6();">發音→片假名(含濁音、半濁音)</button>
-  		<button id="mode_6" class="mode btn" onclick="mode_7();">平假名(含濁音、半濁音)→發音</button>
-      <button id="mode_8" class="mode btn" onclick="mode_8();">片假名(含濁音、半濁音)→發音</button>
+  		<button id="mode_2" class="mode btn" onclick="mode_5();">發音→平假名</br>(含濁音、半濁音)</button>
+  		<button id="mode_4" class="mode btn" onclick="mode_6();">發音→片假名</br>(含濁音、半濁音)</button>
+  		<button id="mode_6" class="mode btn" onclick="mode_7();">平假名→發音</br>(含濁音、半濁音)</button>
+      <button id="mode_8" class="mode btn" onclick="mode_8();">片假名→發音</br>(含濁音、半濁音)</button>
+      <button id="hide_s"class="mode btn" onclick="hide_selector()">取消</button>
   	</div>
-    <div id="selector_func">
-      <button id="show_botton" class="mode btn" onclick="show_selector();">更改模式</button>
-    </div>
   </div>
 	<div id="main_content">
 		<div class="q">
-      <div id="q_title" class="inner_content"></div>
 			<div id="q_cont" class="inner_content">question</div>
 		</div>
 		<div class="ans">
-      <div id="ans_title" class="inner_content"></div>
 			<div id="ans_cont" class="inner_content">answer</div>
 		</div>
     <div id="show_ans" class="content_btn">
@@ -37,7 +33,10 @@
   	</div>
     <div id="next_div" class="content_btn">
   		<button id="next" class="btn" onclick="next();">下一題</button>
-  	</div>
+    </div>
+    <div id="selector_func" class="content_btn">
+      <button id="show_botton" class="btn" onclick="show_selector();">更改模式</button>
+    </div>
 	</div>
 </body>
 </html>

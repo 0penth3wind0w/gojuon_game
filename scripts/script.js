@@ -56,63 +56,50 @@ var game_mode;
 
 function mode_1(){
   document.getElementById("mode_selector").style.display = "none";
-  document.getElementById("selector_func").style.display = "block";
   game_mode = 1;
   game(game_mode);
 }
 
 function mode_2(){
   document.getElementById("mode_selector").style.display = "none";
-  document.getElementById("selector_func").style.display = "block";
   game_mode = 2;
   game(game_mode);
 }
 
 function mode_3(){
   document.getElementById("mode_selector").style.display = "none";
-  document.getElementById("selector_func").style.display = "block";
   game_mode = 3;
   game(game_mode);
 }
 
 function mode_4(){
   document.getElementById("mode_selector").style.display = "none";
-  document.getElementById("selector_func").style.display = "block";
   game_mode = 4;
   game(game_mode);
 }
 
 function mode_5(){
   document.getElementById("mode_selector").style.display = "none";
-  document.getElementById("selector_func").style.display = "block";
   game_mode = 5;
   game(game_mode);
 }
 
 function mode_6(){
   document.getElementById("mode_selector").style.display = "none";
-  document.getElementById("selector_func").style.display = "block";
   game_mode = 6;
   game(game_mode);
 }
 
 function mode_7(){
   document.getElementById("mode_selector").style.display = "none";
-  document.getElementById("selector_func").style.display = "block";
   game_mode = 7;
   game(game_mode);
 }
 
 function mode_8(){
   document.getElementById("mode_selector").style.display = "none";
-  document.getElementById("selector_func").style.display = "block";
   game_mode = 8;
   game(game_mode);
-}
-
-function show_selector(){
-  document.getElementById("mode_selector").style.display = "block";
-  document.getElementById("selector_func").style.display = "none";
 }
 
 function game(mode){
@@ -145,8 +132,19 @@ function game(mode){
   }
   document.getElementById("main_content").style.display = "block";
   document.getElementById("q_cont").style.display = "block";
-  document.getElementById("show_ans").style.display = "block";
+  document.getElementById("show_ans").style.display = "inline-block";
   document.getElementById("ans_cont").style.display = "none";
+}
+
+function show_selector(){
+  document.getElementById("mode_selector").style.display = "block";
+  document.getElementById("hide_s").style.display = "inline-block";
+  document.getElementById("main_content").style.display = "none";
+}
+
+function hide_selector(){
+  document.getElementById("mode_selector").style.display = "none";
+  document.getElementById("main_content").style.display = "block";
 }
 
 function random_pick(q_array, ans_array){
