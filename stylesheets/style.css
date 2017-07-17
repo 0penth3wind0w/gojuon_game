@@ -8,6 +8,11 @@ body{
   text-align: center;
 }
 
+.btn{
+    background-color: white;
+    border-radius: 15px;
+}
+
 #hide_s{
   display: none;
   align-items: flex-end;
@@ -21,7 +26,7 @@ body{
 }
 
 .inner_content{
-  font-size: 8em;
+  font-size: 10em;
   height: 30vh;
 }
 
@@ -34,7 +39,6 @@ body{
   }
 
   .btn{
-    background-color: white;
     margin-top: 3vh;
     margin-left: 3%;
     margin-right: 3%;
@@ -65,7 +69,6 @@ body{
   }
 
   .btn{
-    background-color: white;
     margin-top: 10vh;
     margin-left: 2%;
     margin-right: 2%;
