@@ -54,6 +54,8 @@ var kana_ext = ["ガ","ギ","グ","ゲ","ゴ",
 
 var game_mode;
 
+var mq;
+
 function mode_1(){
   document.getElementById("mode_selector").style.display = "none";
   game_mode = 1;
@@ -132,7 +134,15 @@ function game(mode){
   }
   document.getElementById("main_content").style.display = "block";
   document.getElementById("q_cont").style.display = "block";
-  document.getElementById("show_ans").style.display = "inline-block";
+  mq=window.matchMedia( "(min-width: 1025px)" );
+  if (mq.matches) {
+    document.getElementById("show_ans").style.display = "inline-block";
+    // window width is at least 1025px
+  }
+  else {
+    document.getElementById("show_ans").style.display = "block";
+    // window width is less than 1025px
+  }
   document.getElementById("ans_cont").style.display = "none";
 }
 

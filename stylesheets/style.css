@@ -41,13 +41,11 @@ body{
   }
 
   #main_content div button{
-  font-size: 2em;
+    font-size: 2em;
+    width:50vw;
+    height: auto;
   }
 
-  #show{
-    width:45%;
-    height: 50px;
-  }
   #next{
     width:45%;
     height: 50px;
@@ -56,6 +54,10 @@ body{
 }
 
 @media (min-width:1025px){
+  #main_content{
+    text-align: left;
+  }
+
   .mode{
     width: 20%;
     height: 20vh;
@@ -70,9 +72,25 @@ body{
   }
 
   .content_btn{
-    align-content: left;
-    width: 20%;
+    text-align: left;
+    width: 25%;
     display: inline-block;
+  }
+
+  #main_content div button{
+    font-size: 2em;
+    width:80%;
+    height: auto;
+  }
+
+  .q{
+    text-align: center;
+  }
+  .ans{
+    text-align: center;
+  }
+  .content_btn{
+    margin-left: 8%;
   }
    /* landscape tablets, laptops, and desktops */ 
 }
