@@ -1,0 +1,54 @@
+{
+    "name": "Gojuon Game",
+    "short_name": "Gojuon Game",
+    "description": "Just a little game that help you memorize Gojuon",
+    "scope": "/gojuon_game/",
+    "start_url": "/gojuon_game/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "icons": [
+        {
+            "src": "/gojuon_game/images/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "icon"
+        },
+        {
+            "src": "/gojuon_game/images/icon-256x256.png",
+            "type": "image/png",
+            "sizes": "256x256",
+            "purpose": "icon"
+        },
+        {
+            "src": "/gojuon_game/images/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "icon"
+        },
+        {
+            "src": "/gojuon_game/images/icon-180x180.png",
+            "type": "image/png",
+            "sizes": "180x180",
+            "purpose": "icon"
+        },
+        {
+            "src": "/gojuon_game/images/icon-167x167.png",
+            "type": "image/png",
+            "sizes": "167x167",
+            "purpose": "icon"
+        },
+        {
+            "src": "/gojuon_game/images/icon-152x152.png",
+            "type": "image/png",
+            "sizes": "152x152",
+            "purpose": "icon"
+        },
+        {
+            "src": "/gojuon_game/images/icon-120x120.png",
+            "type": "image/png",
+            "sizes": "120x120",
+            "purpose": "icon"
+        }
+    ]
+}
