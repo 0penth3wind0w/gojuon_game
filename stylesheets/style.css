@@ -1,100 +1,51 @@
-body{
-  font-family: "Microsoft JhengHei","文泉驛正黑";
+body {
   background-color: black;
   color: white;
-}
-
-#selectors{
   text-align: center;
 }
 
-.btn{
-    background-color: white;
-    color: black;
-    border-radius: 15px;
+.btn {
+  background-color: white;
+  border-radius: 15px;
+  color: black;
 }
 
-#hide_s{
+.mode_btn {
+  font-size: 1.2rem;
+  height: 15vh;
+  margin-block: 2vh;
+  margin-inline: 3vw;
+  width: 40vw;
+}
+
+.g_content {
+  font-size: 10rem;
+  line-height: 35vh;
+}
+
+.game_btn {
+  font-size: 2rem;
+  height: 15vh;
+  margin-block: 2.5vh;
+  margin-inline: 20vw;
+  width: 40vw;
+}
+
+.invisible {
   display: none;
-  align-items: flex-end;
 }
 
-#main_content{
-  display: none;
-  width:90%;
-  margin: 5%;
-  text-align: center;
-}
+@media (min-width: 1024px) {
+  .mode_btn {
+    margin-inline: 1vw;
+    width: 18vw;
+  }
 
-.inner_content{
-  font-size: 10em;
-  height: 30vh;
-}
-
-
-@media (min-width:320px){
-  .mode{
-    width: 40%;
+  .game_btn {
+    font-size: 2rem;
     height: 15vh;
-    font-size: 1em;
+    margin-block: 2.5vh;
+    margin-inline: 20vw;
+    width: 40vw;
   }
-
-  .btn{
-    margin-top: 3vh;
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-
-  #main_content div button{
-    font-size: 2em;
-    width:50vw;
-    height: auto;
-  }
-
-  #next{
-    width:45%;
-    height: 50px;
-  }
-   /* smartphones */ 
-}
-
-@media (min-width:1025px){
-  #main_content{
-    text-align: left;
-  }
-
-  .mode{
-    width: 20%;
-    height: 20vh;
-    font-size: 1em;
-  }
-
-  .btn{
-    margin-top: 10vh;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-
-  .content_btn{
-    text-align: left;
-    width: 25%;
-    display: inline-block;
-  }
-
-  #main_content div button{
-    font-size: 2em;
-    width:80%;
-    height: auto;
-  }
-
-  .q{
-    text-align: center;
-  }
-  .ans{
-    text-align: center;
-  }
-  .content_btn{
-    margin-left: 8%;
-  }
-   /* landscape tablets, laptops, and desktops */ 
 }
